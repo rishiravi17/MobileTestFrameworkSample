@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5138879400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializeServer()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "This is a sample scenario to launch gmail",
+        "description": "",
+        "id": "i-want-to-launch-different-apps;this-is-a-sample-scenario-to-launch-gmail",
+        "after": [
+          {
+            "result": {
+              "duration": 8091337700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22247071200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch \"gmail\" app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gmail",
+                  "offset": 8
+                }
+              ],
+              "location": "LaunchApp.launch_something_app(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10000679700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Wait for some a few seconds \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 29
+                }
+              ],
+              "location": "LaunchApp.wait_for_some_a_few_seconds_something(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1743772600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the app",
+            "match": {
+              "location": "LaunchApp.close_the_app()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TestFeature"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5066902300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializeServer()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "This is a sample scenario to launch paytm",
+        "description": "",
+        "id": "i-want-to-launch-different-apps;this-is-a-sample-scenario-to-launch-paytm",
+        "after": [
+          {
+            "result": {
+              "duration": 8083280300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18774912100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Launch \"playstore\" app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "playstore",
+                  "offset": 8
+                }
+              ],
+              "location": "LaunchApp.launch_something_app(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9999603500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Wait for some a few seconds \"10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 29
+                }
+              ],
+              "location": "LaunchApp.wait_for_some_a_few_seconds_something(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1743266200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Close the app",
+            "match": {
+              "location": "LaunchApp.close_the_app()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@TestFeature"
+          }
+        ]
+      }
+    ],
+    "name": "I want to launch different apps",
+    "description": "In order to demo this framework",
+    "id": "i-want-to-launch-different-apps",
+    "keyword": "Feature",
+    "uri": "LaunchApp.feature"
+  }
+]

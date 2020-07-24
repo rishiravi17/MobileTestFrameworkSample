@@ -1,0 +1,211 @@
+2020-07-24 18:15:41:709 [Appium] Welcome to Appium v1.16.0
+2020-07-24 18:15:41:711 [Appium] Non-default server args:
+2020-07-24 18:15:41:713 [Appium]   logFile: AppiumServerLogs\ServerLogs.txt
+2020-07-24 18:15:41:714 [Appium]   localTimezone: true
+2020-07-24 18:15:41:783 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-07-24 18:15:42:537 [HTTP] --> POST /wd/hub/session
+2020-07-24 18:15:42:539 [HTTP] {"desiredCapabilities":{"androidInstallTimeout":150000,"newCommandTimeout":150000,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","deviceName":"Android Device"},"capabilities":{"firstMatch":[{"appium:androidInstallTimeout":150000,"appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:deviceName":"Android Device","appium:newCommandTimeout":150000,"platformName":"android"}]}}
+2020-07-24 18:15:42:543 [W3C] Calling AppiumDriver.createSession() with args: [{"androidInstallTimeout":150000,"newCommandTimeout":150000,"automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","deviceName":"Android Device"},null,{"firstMatch":[{"appium:androidInstallTimeout":150000,"appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","appium:deviceName":"Android Device","appium:newCommandTimeout":150000,"platformName":"android"}]}]
+2020-07-24 18:15:42:545 [BaseDriver] Event 'newSessionRequested' logged at 1595594742544 (18:15:42 GMT+0530 (India Standard Time))
+2020-07-24 18:15:43:119 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-07-24 18:15:43:123 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-07-24 18:15:43:124 [BaseDriver] Creating session with W3C capabilities: {
+2020-07-24 18:15:43:125 [BaseDriver]   "alwaysMatch": {
+2020-07-24 18:15:43:125 [BaseDriver]     "platformName": "android",
+2020-07-24 18:15:43:126 [BaseDriver]     "appium:androidInstallTimeout": 150000,
+2020-07-24 18:15:43:127 [BaseDriver]     "appium:autoGrantPermissions": true,
+2020-07-24 18:15:43:128 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2020-07-24 18:15:43:129 [BaseDriver]     "appium:deviceName": "Android Device",
+2020-07-24 18:15:43:130 [BaseDriver]     "appium:newCommandTimeout": 150000
+2020-07-24 18:15:43:130 [BaseDriver]   },
+2020-07-24 18:15:43:131 [BaseDriver]   "firstMatch": [
+2020-07-24 18:15:43:132 [BaseDriver]     {}
+2020-07-24 18:15:43:132 [BaseDriver]   ]
+2020-07-24 18:15:43:134 [BaseDriver] }
+2020-07-24 18:15:43:148 [BaseDriver] Session created with session id: 74c77a9e-d38f-4bab-b019-4e483cf93c94
+2020-07-24 18:15:43:151 [UiAutomator2] Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+2020-07-24 18:15:43:177 [ADB] Found 2 'build-tools' folders under 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk' (newest first):
+2020-07-24 18:15:43:179 [ADB]     C:/Users/rishi.ravi/AppData/Local/Android/Sdk/build-tools/30.0.0-rc4
+2020-07-24 18:15:43:182 [ADB]     C:/Users/rishi.ravi/AppData/Local/Android/Sdk/build-tools/29.0.3
+2020-07-24 18:15:43:186 [ADB] Using 'adb.exe' from 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2020-07-24 18:15:43:191 [AndroidDriver] Retrieving device list
+2020-07-24 18:15:43:196 [ADB] Trying to find a connected android device
+2020-07-24 18:15:43:199 [ADB] Getting connected devices...
+2020-07-24 18:15:43:295 [ADB] Connected devices: [{"udid":"ZY2228DFVR","state":"device"}]
+2020-07-24 18:15:43:297 [AndroidDriver] Using device: ZY2228DFVR
+2020-07-24 18:15:43:300 [ADB] Using 'adb.exe' from 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2020-07-24 18:15:43:302 [ADB] Setting device id to ZY2228DFVR
+2020-07-24 18:15:43:305 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell getprop ro.build.version.sdk'
+2020-07-24 18:15:43:454 [ADB] Current device property 'ro.build.version.sdk': 25
+2020-07-24 18:15:43:456 [ADB] Device API level: 25
+2020-07-24 18:15:43:458 [AndroidDriver] No app sent in, not parsing package/activity
+2020-07-24 18:15:43:462 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR wait-for-device'
+2020-07-24 18:15:43:529 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell echo ping'
+2020-07-24 18:15:43:634 [AndroidDriver] Pushing settings apk to device...
+2020-07-24 18:15:43:636 [ADB] Getting install status for io.appium.settings
+2020-07-24 18:15:43:639 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell dumpsys package io.appium.settings'
+2020-07-24 18:15:43:801 [ADB] 'io.appium.settings' is installed
+2020-07-24 18:15:43:804 [ADB] Getting package info for 'io.appium.settings'
+2020-07-24 18:15:43:806 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell dumpsys package io.appium.settings'
+2020-07-24 18:15:43:987 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.15.0' >= '2.15.0')
+2020-07-24 18:15:43:990 [ADB] There is no need to install/upgrade 'C:\Users\rishi.ravi\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2020-07-24 18:15:43:992 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-07-24 18:15:43:994 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell 'pgrep --help; echo $?''
+2020-07-24 18:15:44:138 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell pgrep \^appium\\.settings\$'
+2020-07-24 18:15:44:346 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-07-24 18:15:44:351 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell appops set io.appium.settings android\:mock_location allow'
+2020-07-24 18:15:44:546 [Logcat] Starting logcat capture
+2020-07-24 18:15:45:120 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8227
+2020-07-24 18:15:45:122 [ADB] Forwarding system: 8227 to device: 6790
+2020-07-24 18:15:45:125 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR forward tcp\:8227 tcp\:6790'
+2020-07-24 18:15:45:216 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-07-24 18:15:45:218 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell dumpsys package io.appium.uiautomator2.server'
+2020-07-24 18:15:45:389 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-07-24 18:15:45:392 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2020-07-24 18:15:45:394 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell dumpsys package io.appium.uiautomator2.server'
+2020-07-24 18:15:45:569 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.5.2' >= '4.5.2')
+2020-07-24 18:15:45:572 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-07-24 18:15:45:574 [ADB] Checking app cert for C:\Users\rishi.ravi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk
+2020-07-24 18:15:45:579 [ADB] Using 'apksigner.bat' from 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\build-tools\30.0.0-rc4\apksigner.bat'
+2020-07-24 18:15:45:582 [ADB] Starting 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\build-tools\30.0.0-rc4\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\rishi.ravi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.2.apk"]'
+2020-07-24 18:15:48:473 [ADB] Got an error during apksigner execution: Command 'apksigner.bat verify --print-certs C:\\Users\\rishi.ravi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.2.apk' exited with code 1
+2020-07-24 18:15:48:476 [ADB] apksigner stderr: java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-07-24 18:15:48:478 [ADB] 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-07-24 18:15:48:479 [ADB] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+2020-07-24 18:15:48:481 [ADB] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-07-24 18:15:48:483 [ADB] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+2020-07-24 18:15:48:485 [ADB] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+2020-07-24 18:15:48:486 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+2020-07-24 18:15:48:489 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+2020-07-24 18:15:48:492 [ADB] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-07-24 18:15:48:494 [ADB] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+2020-07-24 18:15:48:496 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+2020-07-24 18:15:48:498 [ADB] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+2020-07-24 18:15:48:500 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+2020-07-24 18:15:48:506 [ADB] 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-07-24 18:15:48:508 [ADB] Error: A JNI error has occurred, please check your installation and try again
+2020-07-24 18:15:48:509 [ADB] Exception in thread "main" 
+2020-07-24 18:15:48:514 [ADB] Cannot use apksigner tool for signature verification. Original error: Command 'apksigner.bat verify --print-certs C:\\Users\\rishi.ravi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.2.apk' exited with code 1
+2020-07-24 18:15:48:517 [ADB] Defaulting to verify.jar
+2020-07-24 18:15:49:186 [ADB] 'C:\Users\rishi.ravi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk' is already signed.
+2020-07-24 18:15:49:189 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-07-24 18:15:49:191 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell dumpsys package io.appium.uiautomator2.server.test'
+2020-07-24 18:15:49:428 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-07-24 18:15:49:430 [ADB] Checking app cert for C:\Users\rishi.ravi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2020-07-24 18:15:49:433 [ADB] Starting 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\build-tools\30.0.0-rc4\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\rishi.ravi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-07-24 18:15:51:917 [ADB] Got an error during apksigner execution: Command 'apksigner.bat verify --print-certs C:\\Users\\rishi.ravi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-07-24 18:15:51:919 [ADB] apksigner stderr: java.lang.UnsupportedClassVersionError: com/android/apksigner/ApkSignerTool has been compiled by a more recent version of the Java Runtime (class file version 53.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+2020-07-24 18:15:51:921 [ADB] 	at java.lang.ClassLoader.defineClass1(Native Method)
+2020-07-24 18:15:51:922 [ADB] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+2020-07-24 18:15:51:924 [ADB] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+2020-07-24 18:15:51:927 [ADB] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:468)
+2020-07-24 18:15:51:928 [ADB] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:74)
+2020-07-24 18:15:51:930 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:369)
+2020-07-24 18:15:51:932 [ADB] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:363)
+2020-07-24 18:15:51:933 [ADB] 	at java.security.AccessController.doPrivileged(Native Method)
+2020-07-24 18:15:51:935 [ADB] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:362)
+2020-07-24 18:15:51:942 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+2020-07-24 18:15:51:944 [ADB] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+2020-07-24 18:15:51:945 [ADB] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+2020-07-24 18:15:51:948 [ADB] 	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:495)
+2020-07-24 18:15:51:949 [ADB] Error: A JNI error has occurred, please check your installation and try again
+2020-07-24 18:15:51:951 [ADB] Exception in thread "main" 
+2020-07-24 18:15:51:954 [ADB] Cannot use apksigner tool for signature verification. Original error: Command 'apksigner.bat verify --print-certs C:\\Users\\rishi.ravi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+2020-07-24 18:15:51:958 [ADB] Defaulting to verify.jar
+2020-07-24 18:15:52:584 [ADB] 'C:\Users\rishi.ravi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2020-07-24 18:15:52:586 [UiAutomator2] Server packages are not going to be (re)installed
+2020-07-24 18:15:52:592 [UiAutomator2] Waiting up to 30000ms for services to be available
+2020-07-24 18:15:52:594 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell pm list instrumentation'
+2020-07-24 18:15:53:700 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-07-24 18:15:53:702 [UiAutomator2] No app capability. Assuming it is already on the device
+2020-07-24 18:15:53:705 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2020-07-24 18:15:53:737 [UiAutomator2] The following obsolete sessions are still running: ["d8c1a29c-83d5-4bf4-b882-34775241b3ed"]
+2020-07-24 18:15:53:741 [UiAutomator2] Cleaning up the obsolete sessions
+2020-07-24 18:15:54:779 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell am force-stop io.appium.uiautomator2.server.test'
+2020-07-24 18:15:55:762 [UiAutomator2] Starting UIAutomator2 server 4.5.2
+2020-07-24 18:15:55:765 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\rishi.ravi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk' and test from 'C:\Users\rishi.ravi\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2020-07-24 18:15:55:767 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-07-24 18:15:55:769 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","ZY2228DFVR","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-07-24 18:15:56:797 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-24 18:15:56:805 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8227/wd/hub/status] with no body
+2020-07-24 18:15:56:818 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-07-24 18:15:57:187 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-07-24 18:15:57:824 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-24 18:15:57:826 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8227/wd/hub/status] with no body
+2020-07-24 18:15:57:834 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-07-24 18:15:58:841 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-24 18:15:58:848 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8227/wd/hub/status] with no body
+2020-07-24 18:15:58:882 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+2020-07-24 18:15:58:884 [UiAutomator2] The initialization of the instrumentation process took 3118ms
+2020-07-24 18:15:58:886 [WD Proxy] Matched '/session' to command name 'createSession'
+2020-07-24 18:15:58:889 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8227/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"Android Device","newCommandTimeout":150000},"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"ZY2228DFVR","newCommandTimeout":150000,"deviceUDID":"ZY2228DFVR"}],"alwaysMatch":{}}}
+2020-07-24 18:15:58:908 [WD Proxy] Got response with status 200: {"sessionId":"515cf70e-4a73-46db-9451-25fc798ec30a","value":{"sessionId":"515cf70e-4a73-46db-9451-25fc798ec30a","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"Android Device","newCommandTimeout":150000},"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"ZY2228DFVR","newCommandTimeout":150000,"deviceUDID":"ZY2228DFVR"}],"alwaysMatch":{}}}}
+2020-07-24 18:15:58:910 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-07-24 18:15:58:930 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8227/wd/hub/session/515cf70e-4a73-46db-9451-25fc798ec30a/appium/device/info] with no body
+2020-07-24 18:15:58:963 [WD Proxy] Got response with status 200: {"sessionId":"515cf70e-4a73-46db-9451-25fc798ec30a","value":{"androidId":"cf2303bad7f4008a","manufacturer":"motorola","model":"XT1562","brand":"motorola","apiVersion":"25","platformVersion":"7.1.1","carrierName":"","realDisplaySize":"1080x1920","displayDensity":408,"networks":[],"locale":"en_US","timeZone":"Asia\/Kolkata","bluetooth":{"state":"OFF"}}}
+2020-07-24 18:15:58:966 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell dumpsys window'
+2020-07-24 18:15:59:124 [AndroidDriver] Screen already unlocked, doing nothing
+2020-07-24 18:15:59:131 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8227/wd/hub/session/515cf70e-4a73-46db-9451-25fc798ec30a/appium/device/pixel_ratio] with body: {}
+2020-07-24 18:15:59:144 [WD Proxy] Got response with status 200: {"sessionId":"515cf70e-4a73-46db-9451-25fc798ec30a","value":2.55}
+2020-07-24 18:15:59:151 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-07-24 18:15:59:155 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8227/wd/hub/session/515cf70e-4a73-46db-9451-25fc798ec30a/appium/device/system_bars] with body: {}
+2020-07-24 18:15:59:167 [WD Proxy] Got response with status 200: {"sessionId":"515cf70e-4a73-46db-9451-25fc798ec30a","value":{"statusBar":61}}
+2020-07-24 18:15:59:170 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2020-07-24 18:15:59:172 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8227/wd/hub/session/515cf70e-4a73-46db-9451-25fc798ec30a/window/current/size] with body: {}
+2020-07-24 18:15:59:185 [WD Proxy] Got response with status 200: {"sessionId":"515cf70e-4a73-46db-9451-25fc798ec30a","value":{"height":1798,"width":1080}}
+2020-07-24 18:15:59:188 [Appium] New AndroidUiautomator2Driver session created successfully, session 74c77a9e-d38f-4bab-b019-4e483cf93c94 added to master session list
+2020-07-24 18:15:59:191 [BaseDriver] Event 'newSessionStarted' logged at 1595594759189 (18:15:59 GMT+0530 (India Standard Time))
+2020-07-24 18:15:59:194 [W3C (74c77a9e)] Cached the protocol value 'W3C' for the new session 74c77a9e-d38f-4bab-b019-4e483cf93c94
+2020-07-24 18:15:59:197 [W3C (74c77a9e)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"Android Device","newCommandTimeout":150000},"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"ZY2228DFVR","newCommandTimeout":150000,"deviceUDID":"ZY2228DFVR","deviceApiLevel":25,"platformVersion":"7.1.1","deviceScreenSize":"1080x1920","deviceScreenDensity":408,"deviceModel":"XT1562","deviceManufacturer":"motorola","pixelRatio":2.55,"statBarHeight":61,"viewportRect":{"left":0,"top":61,"width":1080,"height":1737}}}
+2020-07-24 18:15:59:211 [HTTP] <-- POST /wd/hub/session 200 16666 ms - 910
+2020-07-24 18:15:59:216 [HTTP] 
+2020-07-24 18:15:59:225 [HTTP] --> GET /wd/hub/session/74c77a9e-d38f-4bab-b019-4e483cf93c94
+2020-07-24 18:15:59:227 [HTTP] {}
+2020-07-24 18:15:59:230 [W3C (74c77a9e)] Calling AppiumDriver.getSession() with args: ["74c77a9e-d38f-4bab-b019-4e483cf93c94"]
+2020-07-24 18:15:59:233 [UiAutomator2] Getting session details from server to mix in
+2020-07-24 18:15:59:235 [WD Proxy] Matched '/' to command name 'getSession'
+2020-07-24 18:15:59:237 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8227/wd/hub/session/515cf70e-4a73-46db-9451-25fc798ec30a] with body: {}
+2020-07-24 18:15:59:248 [WD Proxy] Got response with status 200: {"sessionId":"515cf70e-4a73-46db-9451-25fc798ec30a","value":{}}
+2020-07-24 18:15:59:251 [W3C (74c77a9e)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"Android Device","newCommandTimeout":150000},"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"ZY2228DFVR","newCommandTimeout":150000,"deviceUDID":"ZY2228DFVR","deviceApiLevel":25,"platformVersion":"7.1.1","deviceScreenSize":"1080x1920","deviceScreenDensity":408,"deviceModel":"XT1562","deviceManufacturer":"motorola","pixelRatio":2.55,"statBarHeight":61,"viewportRect":{"left":0,"top":61,"width":1080,"height":1737}}
+2020-07-24 18:15:59:256 [HTTP] <-- GET /wd/hub/session/74c77a9e-d38f-4bab-b019-4e483cf93c94 200 29 ms - 842
+2020-07-24 18:15:59:258 [HTTP] 
+2020-07-24 18:15:59:262 [HTTP] --> GET /wd/hub/session/74c77a9e-d38f-4bab-b019-4e483cf93c94
+2020-07-24 18:15:59:263 [HTTP] {}
+2020-07-24 18:15:59:265 [W3C (74c77a9e)] Calling AppiumDriver.getSession() with args: ["74c77a9e-d38f-4bab-b019-4e483cf93c94"]
+2020-07-24 18:15:59:267 [UiAutomator2] Getting session details from server to mix in
+2020-07-24 18:15:59:269 [WD Proxy] Matched '/' to command name 'getSession'
+2020-07-24 18:15:59:273 [WD Proxy] Proxying [GET /] to [GET http://127.0.0.1:8227/wd/hub/session/515cf70e-4a73-46db-9451-25fc798ec30a] with body: {}
+2020-07-24 18:15:59:283 [WD Proxy] Got response with status 200: {"sessionId":"515cf70e-4a73-46db-9451-25fc798ec30a","value":{}}
+2020-07-24 18:15:59:286 [W3C (74c77a9e)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"Android Device","newCommandTimeout":150000},"platformName":"android","androidInstallTimeout":150000,"autoGrantPermissions":true,"automationName":"UiAutomator2","deviceName":"ZY2228DFVR","newCommandTimeout":150000,"deviceUDID":"ZY2228DFVR","deviceApiLevel":25,"platformVersion":"7.1.1","deviceScreenSize":"1080x1920","deviceScreenDensity":408,"deviceModel":"XT1562","deviceManufacturer":"motorola","pixelRatio":2.55,"statBarHeight":61,"viewportRect":{"left":0,"top":61,"width":1080,"height":1737}}
+2020-07-24 18:15:59:289 [HTTP] <-- GET /wd/hub/session/74c77a9e-d38f-4bab-b019-4e483cf93c94 200 26 ms - 842
+2020-07-24 18:15:59:294 [HTTP] 
+2020-07-24 18:15:59:299 [HTTP] --> POST /wd/hub/session/74c77a9e-d38f-4bab-b019-4e483cf93c94/appium/device/start_activity
+2020-07-24 18:15:59:301 [HTTP] {"appPackage":"com.android.vending","appActivity":"com.android.vending.AssetBrowserActivity","appWaitPackage":"","appWaitActivity":"","dontStopAppOnReset":true,"intentAction":"","intentCategory":"","intentFlags":"","optionalIntentArguments":""}
+2020-07-24 18:15:59:318 [W3C (74c77a9e)] Calling AppiumDriver.startActivity() with args: ["com.android.vending","com.android.vending.AssetBrowserActivity","","","","","","",true,null,null,"74c77a9e-d38f-4bab-b019-4e483cf93c94"]
+2020-07-24 18:15:59:321 [AndroidDriver] Starting package 'com.android.vending' and activity 'com.android.vending.AssetBrowserActivity'
+2020-07-24 18:15:59:324 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell am start -W -n com.android.vending/com.android.vending.AssetBrowserActivity'
+2020-07-24 18:16:01:111 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.android.vending' and activity: 'com.android.vending.AssetBrowserActivity' to be focused
+2020-07-24 18:16:01:114 [ADB] Possible activities, to be checked: 'com.android.vending.AssetBrowserActivity', 'com.android.vending.com.android.vending.AssetBrowserActivity'
+2020-07-24 18:16:01:118 [ADB] Getting focused package and activity
+2020-07-24 18:16:01:122 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell dumpsys window windows'
+2020-07-24 18:16:01:254 [ADB] Found package: 'com.android.vending' and fully qualified activity name : 'com.android.vending.AssetBrowserActivity'
+2020-07-24 18:16:01:257 [W3C (74c77a9e)] Responding to client with driver.startActivity() result: null
+2020-07-24 18:16:01:260 [HTTP] <-- POST /wd/hub/session/74c77a9e-d38f-4bab-b019-4e483cf93c94/appium/device/start_activity 200 1960 ms - 14
+2020-07-24 18:16:01:262 [HTTP] 
+2020-07-24 18:16:11:273 [HTTP] --> POST /wd/hub/session/74c77a9e-d38f-4bab-b019-4e483cf93c94/appium/device/terminate_app
+2020-07-24 18:16:11:274 [HTTP] {"bundleId":"com.android.vending"}
+2020-07-24 18:16:11:278 [W3C (74c77a9e)] Calling AppiumDriver.terminateApp() with args: ["com.android.vending",null,null,null,"74c77a9e-d38f-4bab-b019-4e483cf93c94"]
+2020-07-24 18:16:11:284 [AndroidDriver] Terminating 'com.android.vending'
+2020-07-24 18:16:11:290 [ADB] Getting IDs of all 'com.android.vending' processes
+2020-07-24 18:16:11:293 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell pgrep \^android\\.vending\$'
+2020-07-24 18:16:11:504 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell am force-stop com.android.vending'
+2020-07-24 18:16:12:589 [AndroidDriver] Querying the state of 'com.android.vending'
+2020-07-24 18:16:12:592 [ADB] Getting install status for com.android.vending
+2020-07-24 18:16:12:594 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell dumpsys package com.android.vending'
+2020-07-24 18:16:12:798 [ADB] 'com.android.vending' is installed
+2020-07-24 18:16:12:801 [ADB] Getting IDs of all 'com.android.vending' processes
+2020-07-24 18:16:12:803 [ADB] Running 'C:\Users\rishi.ravi\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s ZY2228DFVR shell pgrep \^android\\.vending\$'
+2020-07-24 18:16:13:004 [AndroidDriver] 'com.android.vending' has been successfully terminated
+2020-07-24 18:16:13:006 [W3C (74c77a9e)] Responding to client with driver.terminateApp() result: true
+2020-07-24 18:16:13:010 [HTTP] <-- POST /wd/hub/session/74c77a9e-d38f-4bab-b019-4e483cf93c94/appium/device/terminate_app 200 1737 ms - 14
+2020-07-24 18:16:13:013 [HTTP] 

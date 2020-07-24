@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="90.889705">
+<testcase classname="I want to launch different apps" name="This is a sample scenario to launch gmail" time="47.221741">
+<system-out><![CDATA[Given Launch "gmail" app....................................................passed
+Then Wait for some a few seconds "10000"....................................passed
+And Close the app...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="I want to launch different apps" name="This is a sample scenario to launch paytm" time="43.667964">
+<system-out><![CDATA[Given Launch "playstore" app................................................passed
+Then Wait for some a few seconds "10000"....................................passed
+And Close the app...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
